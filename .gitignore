@@ -1,0 +1,23 @@
+# Ignorar documentos e textos gerais (Capítulos, PDFs, etc.)
+*.doc
+*.docx
+*.pdf
+*.odt
+*.rtf
+*.rar
+
+# Ignorar pastas específicas do TCC solicitadas
+Artigos de Referencia/
+ProgamaçãoBiodigestor/01_Referencial_Teorico/
+ProgamaçãoSolar/01_Referencial_Teorico/Legislação_e_Normas/
+
+# Ignorar arquivos de ambiente Python (Recomendado para seus scripts)
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# Ignorar arquivos do sistema operacional (Windows)
+Thumbs.db
+desktop.ini
